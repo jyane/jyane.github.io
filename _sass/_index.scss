@@ -1,0 +1,21 @@
+// index page
+.index {
+  .icon {
+    margin: 40px 0 10px;
+  }
+  ol {
+    padding: 0;
+    list-style: none;
+    li {
+      font-size: 16px;
+      margin-bottom: 20px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  section {
+    margin-bottom: 60px;
+  }
+}

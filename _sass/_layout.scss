@@ -1,0 +1,18 @@
+// layout
+.container {
+  padding: 0 15px;
+
+  @media (min-width: $screen-md-min) {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+  }
+}
+
+main {
+  border-bottom: 1px solid #eee;
+}
+
+body {
+  margin: 0;
+}

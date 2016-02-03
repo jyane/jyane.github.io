@@ -1,0 +1,12 @@
+header {
+  text-align: center;
+  padding: 60px 0;
+  background: url("../img/header.jpeg") 50% 50% no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  a, a:hover, a:visited {
+    color: $header-color;
+    text-decoration: none;
+  }
+}

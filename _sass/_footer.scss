@@ -1,0 +1,35 @@
+footer {
+
+  address {
+    display: table;
+    font-style: normal;
+    margin: 20px 0;
+
+    .name {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 9px;
+    }
+
+    .fa {
+      font-size: 2.5rem;
+    }
+
+    p, img {
+      display: table-cell;
+    }
+    p {
+      padding-left: 20px;
+      vertical-align: top;
+    }
+  }
+
+  a, a:hover, a:visited {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  ul {
+    margin-bottom: 40px;
+  }
+}

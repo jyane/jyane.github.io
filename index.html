@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<main class="index container">
+  <section>
+    <h2>Recent Articles</h2>
+    <ol>
+      {% for post in site.posts %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+          <span class="meta mute">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <section>
+    <h2>Other</h2>
+    <ol>
+      <li>
+        <a href="http://qiita.com/jyane/items/95164ba6b3323723eb40">月 5 ドルくらいで Docker で簡単に OpenVPN 環境を手に入れる</a> on Qiita<br>
+        <span class="meta mute">May 19, 2015</span>
+      </li>
+      <li>
+        <a href="http://qiita.com/jyane/items/aed390415cb0d804a11b">CSS初期値一覧なチートシート</a> on Qiita<br>
+        <span class="meta mute">May 2, 2014</span>
+      </li>
+    </ol>
+  </section>
+</main>
