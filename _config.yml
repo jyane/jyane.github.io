@@ -7,7 +7,9 @@
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://jyane.jp" # the base hostname & protocol for your site
+
+title: jyane.jp
 
 # Build settings
 markdown: kramdown

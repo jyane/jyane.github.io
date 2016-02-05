@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:type" content="{% if page.title == "jyane.jp" %}website{% else %}article{% endif %}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:site_name" content="jyane.jp" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@_jyane" />
+<link rel="stylesheet" href="/css/style.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
