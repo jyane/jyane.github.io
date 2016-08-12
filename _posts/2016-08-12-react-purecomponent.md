@@ -10,6 +10,8 @@ React v15.3 から新たなトップレベルAPIとして PureComponent が追�
 
 <strong style="color: #d00000">2016年8月12日現在、公式 Document にも未だ記載されていない内容のため、誤りが含まれる可能性があります。</strong>
 
+誤りなどがありましたら、[このツイート](https://twitter.com/_jyane/status/764115484727910400)へリプライを送って頂けるとありがたいです。
+
 ## TL;DR
 React PureComponent はデフォルトの `shouldComponentUpdate` を変更した Component である。
 shallow な比較によって Update するかしないかを決定する。
