@@ -46,7 +46,7 @@ h6, .h6 { font-size: $font-size-h6; }
 
 // para
 p {
-  line-height: 1.8;
+  line-height: $line-height-computed;
   margin: 0 0 ($line-height-computed / 2);
 }
 
@@ -69,4 +69,3 @@ ul, ol {
     padding: 0 5px;
   }
 }
-

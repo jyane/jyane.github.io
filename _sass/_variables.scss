@@ -10,12 +10,12 @@ $body-bg: #fff;
 
 $link-color: #4183c4;
 
-$line-height-base: 1.428571429;
+$line-height-base: 1.8;
 $line-height-computed: floor($font-size-base * $line-height-base);
 
 $headings-font-family: inherit;
 $headings-font-weight: 500;
-$headings-line-height: 1.1;
+$headings-line-height: 1.4;
 $headings-color:       inherit;
 $headings-small-color: #777;
 
@@ -27,4 +27,3 @@ $font-size-h5: $font-size-base;
 $font-size-h6: ceil(($font-size-base * 0.85));
 
 $screen-md-min: 768px;
-
