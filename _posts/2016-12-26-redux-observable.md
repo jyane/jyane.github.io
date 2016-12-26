@@ -119,7 +119,7 @@ describe('Test userEpic', () => {
 ## まとめ
 redux-observable について軽く紹介を行ったあと、Test方法について記述しました。
 redux-observable に興味を持ち軽く調べただけでは、redux-saga に比べて Test が面倒に感じます。
-しかし、上記のように marble testing を用いて直感的かつ簡単に Test を記述することがわかります。
+しかし、上記のように marble testing を用いて直感的かつ簡単に Test を記述できることがわかります。
 
 ## 参考
 
