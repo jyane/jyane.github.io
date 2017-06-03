@@ -19,5 +19,6 @@ kramdown:
 
 gems:
   - jemoji
+  - jekyll-sitemap
 
 timezone: Asia/Tokyo
