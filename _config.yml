@@ -7,7 +7,7 @@
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jyane.jp" # the base hostname & protocol for your site
+url: "https://jyane.jp"
 
 title: jyane.jp
 
