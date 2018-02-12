@@ -3,7 +3,8 @@
     "public": "_site",
     "ignore": [
       "**/.*",
-      "firebase.json"
+      "firebase.json",
+      "deploy.sh"
     ]
   }
 }
