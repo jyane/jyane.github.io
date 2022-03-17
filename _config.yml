@@ -7,9 +7,9 @@
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jyane.jp"
+url: "https://jyane.dev"
 
-title: jyane.jp
+title: jyane.dev
 
 # Build settings
 markdown: kramdown
