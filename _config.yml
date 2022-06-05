@@ -15,9 +15,9 @@ title: jyane.dev
 markdown: kramdown
 
 kramdown:
-  input: GFM
+  html_to_native: true
 
-gems:
+plugins:
   - jemoji
   - jekyll-sitemap
 
