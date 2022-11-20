@@ -52,7 +52,7 @@ tags:
 上記のパターンの変形としていくつかのパターンを考えてみます。
 
 ### 積み立てた商品が S&P500 だった場合
-良いシミュレータが見つからなかったので平均リターン 14.7 % で計算しました。
+良いシミュレータが見つからなかったので直近 10 年の平均リターン 14.7 % で計算しました。
 
 |  物件取得価格(万円)  |  物件評価額(万円)  | ローン残債・負債(万円) | 金融資産(万円) | 純資産(万円) |
 | ---- | ---- | ---- | ---- |
@@ -89,5 +89,5 @@ tags:
 
 ## 付録
 計算に使ったサイト
-* https://www.mizuho-sc.com/product/tsumi_toushin/tsumi_simu/simulator.html
-* https://keisan.casio.jp/exec/system/1256183644
+* [つみたて投資シミュレーター｜みずほ証券](https://www.mizuho-sc.com/product/tsumi_toushin/tsumi_simu/simulator.html)
+* [ローン返済（毎月払い） - 高精度計算サイト](https://keisan.casio.jp/exec/system/1256183644)
