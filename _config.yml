@@ -11,6 +11,9 @@ url: "https://jyane.dev"
 
 title: jyane.dev
 
+sitemap:
+  filename: "sitemap.xml"
+
 # Build settings
 markdown: kramdown
 
